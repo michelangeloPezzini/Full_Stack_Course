@@ -1,0 +1,19 @@
+.lista_elementos ul {
+  background-color: teal;
+}
+.lista_elementos li {
+  background-color: slateblue;
+}
+.lista_elementos button {
+  background-color: indigo;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.lista_elementos button:hover {
+  background-color: rebeccapurple;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=styles.css.map */
