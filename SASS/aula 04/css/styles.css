@@ -1,0 +1,14 @@
+.text {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #661cb5;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid red;
+  color: #661cb5;
+  background-color: rgb(26, 26, 26);
+}
+
+/*# sourceMappingURL=styles.css.map */
