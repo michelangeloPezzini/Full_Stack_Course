@@ -4,8 +4,11 @@
   font-family: $font-family;
 }
 
+/*Posso criar uma variavel e adicionar ela no text-style*/
+$primary-color: #7239b6;
+
 .texts {
   h1 {
-    @include text-style(blue, 20px, Arial);
+    @include text-style($primary-color, 20px, Arial);
   }
 }

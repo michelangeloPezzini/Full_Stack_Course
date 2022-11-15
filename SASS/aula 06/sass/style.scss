@@ -1,0 +1,20 @@
+.btn {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin: 10px;
+
+  /*O & é usado para chamar classes dentro de outras classes*/
+  &.btn-roxo {
+    background-color: darkslateblue;
+  }
+  &.btn-amarelo{
+    background-color: gold;
+  }
+  &.btn-vermelho{
+    background-color: darkred;
+    color: white;
+  
+  }
+}

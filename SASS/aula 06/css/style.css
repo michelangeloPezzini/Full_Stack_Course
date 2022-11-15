@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.btn {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin: 10px;
+  /*O & é usado para chamar classes dentro de outras classes*/
+}
+.btn.btn-roxo {
+  background-color: darkslateblue;
+}
+.btn.btn-amarelo {
+  background-color: gold;
+}
+.btn.btn-vermelho {
+  background-color: darkred;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
