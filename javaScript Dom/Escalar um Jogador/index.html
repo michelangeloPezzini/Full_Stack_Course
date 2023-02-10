@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio Escalar um Jogador</title>
+  <style>
+    body{
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Escalação do Time</h1>
+  <hr>
+  <h2>Escalar Jogador</h2>
+  <p>
+    <label for="position">Posição: </label>
+    <input type="text" name="position" id="position">
+    <br>
+    <br>
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name">
+    <br>
+    <br>
+    <label for="number">Number: </label>
+    <input type="text" name="number" id="number">
+    <br>
+    <br>
+    <button onclick="addPlayer()">Add Player</button>
+  </p>
+  <h2>Remover Jogador</h2>
+  <p>
+    <label for="numberToRemove">Number: </label>
+    <input type="text" name="numberToRemove" id="numberToRemove">
+    <br>
+    <br>
+    <button onclick="removePlayer()">Remove Player</button>
+  </p>
+
+  <h2>Time</h2>
+  <ul id="teamList">
+
+  </ul>
+  <script src="script.js"></script>
+</body>
+
+</html>
