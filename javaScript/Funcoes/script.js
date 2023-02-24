@@ -26,3 +26,13 @@ function criarProduto(nome, preco) {
 
 const notebook = criarProduto("Nitro 5 Core i5 16 gb", 4500);
 console.log(notebook);
+
+function terceiraIdade(idade) {
+  console.log(typeof idade);
+  if (idade <= 60) {
+    return true;
+  } else {
+    false;
+  }
+}
+console.log(terceiraIdade("60"));

@@ -17,6 +17,7 @@ function addPlayer() {
     playerItem.innerText = position + ": " + name + " (" + number + ")";
     teamList.appendChild(playerItem);
 
+    //pegar o valor do input
     document.getElementById("position").value = "";
     document.getElementById("name").value = "";
     document.getElementById("number").value = "";

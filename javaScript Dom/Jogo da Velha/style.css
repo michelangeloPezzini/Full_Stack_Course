@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+#gameBord {
+  background-color: rgb(49, 49, 49);
+  display: grid;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 6rem 6rem 6rem;
+  gap: 0.5rem;
+  margin: 1.5rem;
+  max-width: 19rem;
+}
+
+#gameBord span {
+  background-color: azure;
+  cursor: pointer;
+  /*Display grid e place content center alinha no centro qualquer texto do input*/
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+}
+
+/*Classe criada para adicionar os campos vencedores a partir do javascript*/
+#gameBord span.win {
+  background-color: rgb(27, 212, 27);
+}
