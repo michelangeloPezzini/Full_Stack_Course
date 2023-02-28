@@ -14,11 +14,14 @@ body {
 
 #gameBord span {
   background-color: azure;
-  cursor: pointer;
   /*Display grid e place content center alinha no centro qualquer texto do input*/
   display: grid;
   place-content: center;
   font-size: 5rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 /*Classe criada para adicionar os campos vencedores a partir do javascript*/
