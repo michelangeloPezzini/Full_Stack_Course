@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "hello-world-npm": "^1.1.1"
+  },
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "NPX is capable to init the module",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "hello": "hello-world-npm",
+    "start": "node index.js"
+  },
+  "author": "Michelangelo Pezzini",
+  "license": "ISC"
+}
